@@ -1,4 +1,4 @@
-.are {
+ц.are {
     width: 100%;
 }
 
@@ -135,4 +135,21 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: 46px;
+}
+.name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.profesion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
 }
