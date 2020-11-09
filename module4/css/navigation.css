@@ -11,14 +11,16 @@
     padding-top: 40px;
 }
 
-.logo {
+.logo_link {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: #95e1d3;
 }
 
-.navigation {}
+.navigation {
+    width: 490px;
+}
 
 .nav_menu {
     display: flex;
@@ -26,8 +28,7 @@
 }
 
 .menu_item {
-    list-style: none;
-    margin-right: 57px;
+    display: block;
 }
 
 .menu_item_link {
@@ -42,7 +43,7 @@
     border-bottom: 3px solid #f38181;
     padding-bottom: 12px;
 }
-.logo:hover {
+.logo_link:hover {
     color: #f38181;
     border-bottom: 3px solid #f38181;
     padding-bottom: 12px;
