@@ -1,0 +1,74 @@
+.main {}
+
+.main_wrapper {}
+
+.services {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.services_zag {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    color: #222222;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.services_text {
+    font-style: italic;
+    text-align: center;
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.services_card_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 935px;
+    margin: 0 auto;
+}
+.services_card_img {
+    width: 40px;
+    height: 40px;
+    left: -50%;
+    display: block;
+}
+.services_card_img_wrapper {
+    border: 3px solid #FED136;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.services_card {
+    display: block;
+}
+.services_card_zag {
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 18px;
+    color: #222222;
+    font-weight: 700;
+    font-size: 18px;
+}
+.services_card_text {
+    display: block;
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.text_wrapper {
+    width: 275px;
+    font-family: 'Roboto Slab', serif;
+}
