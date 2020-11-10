@@ -1,4 +1,4 @@
-ц.are {
+.are {
     width: 100%;
 }
 
@@ -122,11 +122,13 @@
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 400;
+    font-weight: 400;
+    font-size: 14px;
 }
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 100;
+    font-weight: 300;
+    font-size: 15px;
     font-style: italic;
 }
 
