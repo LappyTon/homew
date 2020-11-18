@@ -1,0 +1,24 @@
+@media (max-width: 320px) {
+    .herder {
+        text-align: center;
+        width: 100%;
+        background-image: url(../imges/Header.png);
+        background-repeat: no-repeat;
+        height: 540px;
+    }
+    .login_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .login {}
+    
+    .login_link {}
+
+    .sing_in {}
+
+    .singin_link{}
+
+    .share {}
+}

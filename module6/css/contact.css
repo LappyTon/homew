@@ -4,6 +4,7 @@
     background-image: url("../imges/Map_Image.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+    padding-bottom: 20px;
 }
 
 .contact_us_text_wrapper {
