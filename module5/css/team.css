@@ -97,6 +97,9 @@
 .social_link:hover {
     background-color: #95e1d3;
 }
+.main_section_team {
+    width: 1200px;
+}
 .teamCardGradient {
     width: 383px;
     height: 473px;
