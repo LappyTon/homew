@@ -1,0 +1,157 @@
+@media screen and (min-width: 320px) { 
+    .section_main {
+        text-align: center;
+    }
+    
+    .main {}
+    
+    .main_cont {}
+    
+    .meet_text {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 68px;
+        margin-bottom: 68px;
+    }
+    
+    .team_cards_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        margin: 0 auto;
+        width: 200px;
+        margin-bottom: 28px;
+
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+    
+    .img_card_wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0 auto;
+        width: 122px;
+        height: 122px;
+        position: relative;
+        display: block;
+    }
+    .team_card_zag {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #333333;
+        display: block;
+    }
+    
+    .team_card_content {
+        text-align: center;
+        color: #666666;
+        display: block;
+    }
+    
+    .card_img {
+        border-radius: 50%;
+        display: block;
+    }
+    .icon_wrapper {
+        border-radius: 50%;
+        border: 3px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 10px;
+        top: 73.77%;
+        left: 73.77%;
+    }
+    .card_img {
+        display: block;
+    }
+    .red {
+        background-color: #ff4e50;
+        padding: 7px 8px 9px;
+    }
+    
+    .green {
+        background-color: #1cd7ad;
+        padding: 7px 8px 9px 8px;
+    }
+    
+    .yellow {
+        background-color: #ffa507;
+        padding: 8px 9px 8px 11px;
+    }
+    
+    .blue {
+        background-color: #4e73db;
+        padding: 9px 9px 8px 7px;
+    }
+    .other {
+        background-color: #fff;
+        border: 2px solid #ff4e50;
+        color: #ff4e50;
+        font-family: "montserrat", "sans-sherif";
+        padding: 14px 74px 12px;
+        border-radius: 280px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 58px;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 3;
+    }
+    .order3 {
+        order: 2;
+    }
+    .order4 {
+        order: 4;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    .team_cards_wrapper {
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .card {
+        margin-bottom: 58px;
+    }
+    .card:nth-child(3n+0) {
+        margin-bottom: 40px;
+    }
+    .card:nth-child(4n+0) {
+        margin-bottom: 0;
+    }
+    .other {
+        margin-bottom: 40px;
+    }
+    .order1 {
+        order: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .team_cards_wrapper {
+        width: 915px;
+    }
+}

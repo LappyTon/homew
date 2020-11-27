@@ -1,202 +1,19 @@
-
-@media (min-width: 769px) {
+@media (min-width: 320px) {
     .header {
         text-align: center;
         width: 100%;
-        background-repeat: no-repeat;
-        height: 540px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header_pc.png);
-        background-repeat: no-repeat;
         background-position: center;
-    }
-    .head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
-        width: 670px;
-    }
-    .login_wrapper {
-        display: flex;
-        justify-content: space-between;
-        order: 2;
-    }
-    .header_cont {
-        margin: 0 auto;
-        width: 940px;
-        text-align: center;
-    }
-    .login {
-        padding: 12px 18px 10px 19px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .login_text {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    .sing_in {
-        padding: 12px 18px 10px 19px;
-    }
-    .name {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-        text-transform: uppercase;
-        order: 1;
-    }
-    .share_holiday {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30.01471px;
-        font-weight: 700;
-        margin-top: 38px;
-        margin-bottom: 19px;
-    }
-    .login:hover {
-        border: 2px solid #ffffffff;
-        border-radius: 36px;
-    }
-    .sing_in:hover {
-        border: 2px solid #ffffff;
-        border-radius: 36px;
-    }
-    .share_find {
-        font-family: 'Roboto', sans-serif;
-        color: #ffffff;
-        font-size: 18.00883px;
-        font-weight: 300;
-        width: 217px;
-        margin: 0 auto;
-    }
-    .btn_find {
-        background-color: #ff4e50;
-        outline: none;
-        border: none;
-        padding-right: 52px;
-        padding-bottom: 12px;
-        padding-top: 14px;
-        padding-left: 51px;
-        font-family: 'Roboto', sans-serif;
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 700;
-        border-radius: 36px;
-        margin-top: 19px;
-    }
-}
-@media (min-width: 768px) {
-    .header {
-        text-align: center;
-        width: 100%;
-        background-repeat: no-repeat;
         height: 540px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header_pc.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin: 0 auto;
-        width: 670px;
-    }
-    .login_wrapper {
-        display: flex;
-        justify-content: space-between;
-        order: 2;
-    }
-    .login {
-        padding: 12px 18px 10px 19px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .login_text {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    .sing_in {
-        padding: 12px 18px 10px 19px;
-    }
-    .name {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-        text-transform: uppercase;
-        order: 1;
-    }
-    .share_holiday {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30.01471px;
-        font-weight: 700;
-        margin-top: 38px;
-        margin-bottom: 19px;
-    }
-    .login:hover {
-        border: 2px solid #ffffffff;
-        border-radius: 36px;
-    }
-    .sing_in:hover {
-        border: 2px solid #ffffff;
-        border-radius: 36px;
-    }
-    .share_find {
-        font-family: 'Roboto', sans-serif;
-        color: #ffffff;
-        font-size: 18.00883px;
-        font-weight: 300;
-        width: 217px;
-        margin: 0 auto;
-    }
-    .btn_find {
-        background-color: #ff4e50;
-        outline: none;
-        border: none;
-        padding-right: 52px;
-        padding-bottom: 12px;
-        padding-top: 14px;
-        padding-left: 51px;
-        font-family: 'Roboto', sans-serif;
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 700;
-        border-radius: 36px;
-        margin-top: 19px;
-    }
-}
-@media (max-width: 322px) {
-    .header {
-        text-align: center;
-        width: 100%;
-        background-repeat: no-repeat;
-        height: 540px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header.png);
         background-repeat: no-repeat;
     }
-    .login_wrapper {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        margin-bottom: 115px;
-        padding-top: 21px;
-    }
     .login {
         padding: 12px 18px 10px 19px;
         display: flex;
-        justify-content: center;
         align-items: center;
+        border: 2px solid transparent;
+        width: 86px;
     }
     .login_text {
         color: #ffffff;
@@ -204,9 +21,19 @@
         font-size: 14px;
         font-weight: 700;
     }
-
+    .login_wrapper {
+        display: flex;
+        width: 220px;
+        margin: 0 auto;
+        padding-top: 21px;
+    }
     .sing_in {
+        border: 2px solid transparent;
         padding: 12px 18px 10px 19px;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        width: 101px;
     }
     .name {
         color: #ffffff;
@@ -214,6 +41,7 @@
         font-size: 20px;
         font-weight: 700;
         text-transform: uppercase;
+        margin-top: 115px;
     }
     .share_holiday {
         color: #ffffff;
@@ -224,11 +52,11 @@
         margin-bottom: 19px;
     }
     .login:hover {
-        border: 2px solid #ffffffff;
+        border-color: #fff;
         border-radius: 36px;
     }
     .sing_in:hover {
-        border: 2px solid #ffffff;
+        border-color: #fff;
         border-radius: 36px;
     }
     .share_find {
@@ -253,5 +81,79 @@
         font-weight: 700;
         border-radius: 36px;
         margin-top: 19px;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header {
+        text-align: center;
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header_pc.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .login_wrapper {
+        order: 2;
+    }
+    .name {
+        order: 1;
+    }
+    .head {
+        margin-top: 46px;
+    }
+    .meet_text {
+        margin-top: 72px;
+        margin-bottom: 31px;
+    }
+    .head {
+        width: 670px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .login_wrapper {
+        margin: 0;
+        align-items: center;
+    }
+    .share_holiday {
+        font-size: 52px;
+        margin-top: 160px;
+        margin-bottom: 40px;
+    }
+    .name {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        
+    }
+    .btn_find {
+        margin-top: 34px;
+        font-size: 24px;
+    }
+    .share_find {
+        width: 100%;
+    }
+    .login {}
+    .sing_in {}
+    .login_wrapper {
+        margin: 0;
+    }
+    .share_wrapper {
+        margin: 0 auto;
+        width: 470px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header_cont {
+        width: 940px;
+        margin: 0 auto;
     }
 }
