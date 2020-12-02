@@ -1,7 +1,19 @@
+.main {
+    margin: 0 auto; 
+}
+.main_wrapper {
+    margin: 0 auto;
+}
+.main_section_work {
+    margin: 0 auto;
+}
 .are {
     width: 100%;
+    margin: 0 auto;
 }
-
+.main_section_team {
+    margin: 0 auto;
+}
 .are_wrapper {
     width: 262px;
     text-align: center;
@@ -42,7 +54,9 @@
     margin-top: 46px;
     margin-bottom: 90px;
 }
-
+.services_wrapper {
+    margin: 0 auto;
+}
 /* Сам тім */
 
 .team {
