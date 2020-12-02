@@ -1,19 +1,18 @@
-@media (min-width: 320px) {
     .header {
         text-align: center;
         width: 100%;
         background-position: center;
-        height: 540px;
         margin: 0 auto;
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .login {
         padding: 12px 18px 10px 19px;
         display: flex;
         align-items: center;
         border: 2px solid transparent;
-        width: 86px;
+        width: 90px;
     }
     .login_text {
         color: #ffffff;
@@ -50,6 +49,7 @@
         font-weight: 700;
         margin-top: 38px;
         margin-bottom: 19px;
+        text-transform: uppercase;
     }
     .login:hover {
         border-color: #fff;
@@ -82,17 +82,11 @@
         border-radius: 36px;
         margin-top: 19px;
         cursor: pointer;
+        margin-bottom: 139px;
     }
-}
 @media screen and (min-width: 768px) {
     .header {
-        text-align: center;
-        width: 100%;
-        height: 700px;
-        margin: 0 auto;
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imges/Header_pc.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     .login_wrapper {
         order: 2;
@@ -111,6 +105,7 @@
         width: 670px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 0 auto;
     }
     .login_wrapper {
@@ -123,15 +118,7 @@
         margin-bottom: 40px;
     }
     .name {
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-        text-transform: uppercase;
         margin-top: 0;
-        display: flex;
-        align-items: center;
-        
     }
     .btn_find {
         margin-top: 34px;
@@ -140,14 +127,18 @@
     .share_find {
         width: 100%;
     }
-    .login {}
-    .sing_in {}
+    .login {
+        margin: 0;
+    }
+    .sing_in {
+        margin: 0;
+    }
     .login_wrapper {
         margin: 0;
     }
     .share_wrapper {
         margin: 0 auto;
-        width: 470px;
+        width: 510px;
         text-align: center;
     }
 }
